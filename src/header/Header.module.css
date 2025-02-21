@@ -1,0 +1,19 @@
+.header {
+  padding: 1rem;
+  border-bottom: 1px solid var(--navbar-line);
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--button-primary-hover);
+
+  &:hover {
+    color: blue;
+  }
+}
